@@ -154,6 +154,8 @@ main section {
   font-size: 30px;
   font-weight: bold;
   color: #474747;
+  text-decoration: underline;
+  /* text-decoration: solid; */
 }
 .experience-title {
   font-size: 25px;
@@ -174,4 +176,29 @@ main section {
 }
 .resume-download-cv-btn {
   margin-top:50px;
+}
+
+/* footer stylees */
+
+footer {
+  padding: 130px ;
+  display: flex;
+  gap: 100px;
+}
+
+
+.footer-column {
+  width: 50%;
+}
+
+footer input[type="text"], footer input[type="email"], footer textarea{
+  height: 64px;
+  border-radius: 5px;
+  background-color: white;
+  color: #757575;
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 24px;
+  border: none;
 }
